@@ -75,14 +75,15 @@
 // Создайте объект city1 (var city1 = {}), укажите у него свойства name 
 // (название города, строка) со значением «ГородN» и population 
 // (населенность города, число) со значением 10 млн.
-var city1 = {
-    name: 'ГородN',
-    population: 10000000
-}
+var city1 = {}
+city1.name = 'ГородN'
+city1.population = 10000000
 console.log('1)',city1)
 
 // Создайте объект city2 через нотацию {name: "ГородM", population: 1e6}.
-let city2 = {name: "ГородN", population: 1e6}
+let city2 = {}
+city2.name = 'ГородN'
+city2.population = 1e6
 console.log('2)',city2)
 
 // Создайте у объектов city1 и city2 методы getName(), которые вернут 
